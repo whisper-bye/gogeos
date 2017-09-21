@@ -1,3 +1,5 @@
+## Note: Windows Only
+
 gogeos - Go library for spatial data operations and geometric algorithms
 ========================================================================
 
@@ -17,7 +19,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/paulsmith/gogeos/geos"
+	"github.com/whisper-bye/gogeos/geos"
 )
 
 func main() {
@@ -86,14 +88,14 @@ $ sudo make install
 ### Installing gogeos
 
 ```bash
-$ go get github.com/paulsmith/gogeos/geos
+$ go get github.com/whisper-bye/gogeos/geos
 ```
 
 Documentation
 -------------
 
  * [Main gogeos documentation](http://paulsmith.github.io/gogeos/)
- * [godoc](http://godoc.org/github.com/paulsmith/gogeos/geos)
+ * [godoc](http://godoc.org/github.com/whisper-bye/gogeos/geos)
 
 Example
 -------
