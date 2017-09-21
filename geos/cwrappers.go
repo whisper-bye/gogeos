@@ -3,6 +3,7 @@ package geos
 // Created mechanically from C API header - DO NOT EDIT
 
 /*
+#cgo CFLAGS: -I./include
 #include <geos_c.h>
 */
 import "C"

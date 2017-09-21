@@ -4,8 +4,8 @@
 package geos
 
 /*
-#cgo LDFLAGS: -lgeos_c
-#include "geos.h"
+#cgo LDFLAGS: -L./lib -lgeos_c -lgeos
+#include "gogeos.h"
 */
 import "C"
 
